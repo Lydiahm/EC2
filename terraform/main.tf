@@ -47,7 +47,7 @@ resource "aws_instance" "demo" {
   }
 }
 
-# Affiche les IDs des instances créées
+# Affiche les IDs des instances créées   #Comm
 output "instance_ids" {
   value = aws_instance.demo[*].id
-}
+} 
