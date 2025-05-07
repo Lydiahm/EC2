@@ -55,3 +55,7 @@ resource "aws_instance" "demo" {
 output "instance_ids" {
   value = aws_instance.demo[*].id
 }
+
+
+
+
